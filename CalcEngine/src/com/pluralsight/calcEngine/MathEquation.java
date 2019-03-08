@@ -3,7 +3,7 @@ package com.pluralsight.calcEngine;
 public class MathEquation {
     private double leftVal;
     private double rightVal;
-    private char opCode;
+    private char opCode = 'a';
     private double result;
 
 
@@ -15,6 +15,23 @@ public class MathEquation {
     public void setOpCode(char opCode) {this.opCode = opCode;}
 
     public double getResult()   {return result;}
+
+    public MathEquation (char opCode){
+
+        this.opCode = opCode;
+    }
+
+
+    public MathEquation(){}
+
+    public MathEquation(char opCode, double leftVal, double rightVal)
+    {
+        this(opCode);
+        this.leftVal = leftVal;
+        this.rightVal = rightVal;
+
+
+    }
 
 public void execute() {
     switch (opCode)
