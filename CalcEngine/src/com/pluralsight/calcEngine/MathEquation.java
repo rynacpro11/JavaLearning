@@ -14,6 +14,10 @@ public class MathEquation {
     public char getOpCode() {return opCode;}
     public void setOpCode(char opCode) {this.opCode = opCode;}
 
+
+    public double getResult()   {return result;}
+
+
 //constructors
     public MathEquation(){}
 
@@ -28,8 +32,24 @@ public class MathEquation {
 
 //End constructors
 
+    public void execute(double leftVal, double rightVal)
+    {
+        this.leftVal = leftVal;
+        this.rightVal = rightVal;
 
-    public double getResult()   {return result;}
+        execute();
+
+    }
+
+    public void execute(int leftVal, int rightVal)
+    {
+        this.leftVal = leftVal;
+        this.rightVal = rightVal;
+
+        execute();
+        result = (int)result;
+
+    }
 
     public void execute() {
         switch (opCode)
