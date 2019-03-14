@@ -32,6 +32,7 @@ public class MathEquation {
 
 //End constructors
 
+
     public void execute(double leftVal, double rightVal)
     {
         this.leftVal = leftVal;
