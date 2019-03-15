@@ -17,8 +17,10 @@ public class Main {
             helper.process(statement);
             System.out.println(helper);
         }
+    }
 
 
+    ///retired methods
 //        static void useMathEquation () {
 //            MathEquation[] equations = new MathEquation[4];
 //            equations[0] = new MathEquation('d', 100.0d, 50.0d);
@@ -85,7 +87,7 @@ public class Main {
 //        useCalculatorBase();
 
 
-    }
+
 
 
 }
