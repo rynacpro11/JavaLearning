@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b539f20-b579-4023-acac-7a506ef98d56" name="Default Changelist" comment="" />
+    <list default="true" id="2b539f20-b579-4023-acac-7a506ef98d56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/pluralsight/calcEngine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pluralsight/calcEngine/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcEngine/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="153">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
                 <element signature="e#487#529#0" />
               </folding>
@@ -127,12 +129,12 @@
         <option value="$PROJECT_DIR$/src/com/pluralsight/calcEngine/CalculateBase.java" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/calcEngine/MathEquation.java" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/calcEngine/MathCommand.java" />
-        <option value="$PROJECT_DIR$/src/com/pluralsight/calcEngine/Main.java" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/calcEngine/CalculateHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/pluralsight/calcEngine/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -223,7 +225,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
@@ -357,8 +359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pluralsight/calcEngine/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="e#487#529#0" />
           </folding>
